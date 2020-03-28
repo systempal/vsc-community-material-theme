@@ -1,11 +1,11 @@
 {
-  "name": "vsc-community-material-theme",
-  "displayName": "Community Material Theme",
-  "description": "The official community maintained Material Theme with 'legacy' color schemes you love!",
-  "version": "1.4.1",
-  "publisher": "Equinusocio",
+  "name": "vsc-community-material-theme-plus-plus",
+  "displayName": "Community Material Theme++",
+  "description": "The official community maintained Material Theme with 'legacy' color schemes you love! a little refined by me.",
+  "version": "1.0.1",
+  "publisher": "SimoneChifari",
   "license": "Apache-2.0",
-  "author": "Mattia Astorino [@equinusocio]",
+  "author": "Simone Chifari",
   "icon": "logo.png",
   "galleryBanner": {
     "color": "#11131C",
@@ -38,56 +38,6 @@
   "contributes": {
     "themes": [
       {
-        "label": "Community Material Theme",
-        "path": "./themes/Community-Material-Theme-Default.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme High Contrast",
-        "path": "./themes/Community-Material-Theme-Default-High-Contrast.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme Darker",
-        "path": "./themes/Community-Material-Theme-Darker.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme Darker High Contrast",
-        "path": "./themes/Community-Material-Theme-Darker-High-Contrast.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme Palenight",
-        "path": "./themes/Community-Material-Theme-Palenight.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme Palenight High Contrast",
-        "path": "./themes/Community-Material-Theme-Palenight-High-Contrast.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme Ocean",
-        "path": "./themes/Community-Material-Theme-Ocean.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme Ocean High Contrast",
-        "path": "./themes/Community-Material-Theme-Ocean-High-Contrast.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Community Material Theme Lighter",
-        "path": "./themes/Community-Material-Theme-Lighter.json",
-        "uiTheme": "vs"
-      },
-      {
-        "label": "Community Material Theme Lighter High Contrast",
-        "path": "./themes/Community-Material-Theme-Lighter-High-Contrast.json",
-        "uiTheme": "vs"
-      },
-      {
         "label": "Community Material Darker++ High Contrast",
         "path": "./themes/Community-Material-Theme-Darker++-High-Contrast.json",
         "uiTheme": "vs-dark"
@@ -95,6 +45,7 @@
     ]
   },
   "extensionDependency": [
+    "Equinusocio.vsc-community-material-theme",
     "Equinusocio.vsc-material-theme-icons"
   ],
   "badges": [
@@ -106,7 +57,7 @@
   ],
   "__metadata": {
     "id": "dffaf5a1-2219-434b-9d87-cb586fd59260",
-    "publisherDisplayName": "Mattia Astorino",
+    "publisherDisplayName": "Simone Chifari",
     "publisherId": "e41388a1-a892-4c1e-940b-1e7c1bf43c97"
   }
 }
