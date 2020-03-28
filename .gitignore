@@ -8,3 +8,5 @@ node_modules/
 build
 dist
 user.material-theme.config.json
+*.vsix
+.hystory
